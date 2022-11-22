@@ -94,5 +94,5 @@ CMD [ \
 # Make use of user data directory
 "--user-data-dir" \
 # Use a larger window by default
-"--window-size=1920,1080"
+"--window-size=1920,1080" \
 ]
