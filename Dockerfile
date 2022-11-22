@@ -92,7 +92,7 @@ CMD [ \
 # Disable fetching safebrowsing lists, likely redundant due to disable-background-networking
 "--safebrowsing-disable-auto-update", \
 # Make use of user data directory
-"--user-data-dir" \
+"--user-data-dir", \
 # Use a larger window by default
 "--window-size=1920,1080" \
 ]
