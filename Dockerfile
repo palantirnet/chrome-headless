@@ -73,7 +73,7 @@ CMD [ \
 # Disable cross-origin safeguards
 "--disable-web-security", \
 # Run in headless mode
-"--headless", \
+"--headless=new", \
 # Hide scrollbars on generated images/PDFs
 "--hide-scrollbars", \
 # Disable reporting to UMA, but allows for collection
@@ -92,5 +92,7 @@ CMD [ \
 # Disable fetching safebrowsing lists, likely redundant due to disable-background-networking
 "--safebrowsing-disable-auto-update", \
 # Make use of user data directory
-"--user-data-dir" \
+"--user-data-dir", \
+# Disable shared memory to prevent crashes
+"--disable-dev-shm-usage" \
 ]
